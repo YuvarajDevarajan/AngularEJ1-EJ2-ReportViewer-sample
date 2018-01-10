@@ -1,0 +1,16 @@
+.container {
+    padding-top: 75px;
+}
+
+ej-reportviewer {
+    display: block;
+    height: 550px;
+}
+
+.e-reportviewer-pageview {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}
+
+@import '../../node_modules/@syncfusion/ej2/styles/compatibility/material.css';
