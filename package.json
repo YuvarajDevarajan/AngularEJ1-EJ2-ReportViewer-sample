@@ -38,7 +38,6 @@
         "systemjs-plugin-babel": "0.0.17",
         "es6-promise": "^3.2.1",
         "gulp": "^3.9.1",
-        "gulp-sass": "^3.1.0",
         "gulp-typescript": "^3.1.6",
         "requirejs": "^2.3.3",
         "typescript": "2.3.4",
@@ -46,7 +45,7 @@
         "webpack": "2.5.1"
     },
     "scripts": {
-        "build": "gulp styles && ngc -p tsconfig-aot.json && gulp bundle",
+        "build": "ngc -p tsconfig-aot.json && gulp bundle",
         "serve": "npm run build && gulp serve"
     }
 }
